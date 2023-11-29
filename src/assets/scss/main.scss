@@ -1,0 +1,11 @@
+
+// base 放置一些基本樣板設定(boilerplate code)，如css reset、全站網站設定，或一些原本會寫在body的基本內文文字設定。
+// utils 放置在此資料夾的檔案內容不應輸出成CSS，他們應是用來匯入其他scss檔案中的工具如變數、計算公式。
+// layout 放置網頁layout，例如header、footer、navigation、sidebar...
+// components 放置一些常用的元件樣式，例如按鈕、輪播、選單。
+@import './components/scrollbar';
+// pages 放置主頁及分頁對應的樣式設定內容。檔名最好與其對應分頁名稱相同，例如cart.html對應的scss就命名為_cart.scss 。
+// themes 放置網頁中不同樣式主題設定 ( 較少使用到 )
+// vendors 放置一些外部載入的程式碼、套件、框架、函式庫。例如 Bootstrap、jQuery、輪播套件效果
+@import './vendors/tailwind';
+@import './vendors/swiper';
